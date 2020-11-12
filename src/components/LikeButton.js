@@ -9,7 +9,7 @@ function LikeButton({ user, post: { id, likeCount, likes } }) {
   const [liked, setLiked] = useState(false);
 
   const redi = () => {
-    window.location.href = "http://192.168.1.110:3000/login";
+    window.location.href = "https://adoring-noyce-a29edf.netlify.app/login";
   };
 
   useEffect(() => {
